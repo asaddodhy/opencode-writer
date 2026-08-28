@@ -6,6 +6,7 @@ The repository separates the writing system from its client integration:
 
 - `core/novel-os/` contains model-independent writing standards and workflows.
 - `adapters/opencode/` contains OpenCode commands, agents, routing rules, and project configuration.
+- `apps/novel-os/` contains a sanitized source snapshot of the separate Novel OS application.
 - `adapters/` is reserved for future integrations with other writing tools.
 
 This repository is the port of the workflow/configuration project at
@@ -51,7 +52,7 @@ Commands and subagents are globally available after installation. Novel-specific
 
 ## Repository Policy
 
-This repository stores reusable configuration and instructions only. Manuscripts, generated project state, credentials, databases, virtual environments, and model-specific provider configuration do not belong here.
+This repository stores reusable configuration, instructions, and a sanitized application source snapshot. Manuscripts, generated project state, credentials, databases, virtual environments, and dependency directories do not belong here.
 
 ## Source
 

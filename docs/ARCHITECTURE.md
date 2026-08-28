@@ -20,3 +20,7 @@ Future tools should reuse the core files and provide only their own command, con
 Novel-OS stores reusable global files in `~/.novel-os/`. Each writing project stores its own premise, outline, tasks, and manuscript metadata in `.novel-os/`.
 
 The repository intentionally does not contain a manuscript or generated project state.
+
+## Standalone Application Snapshot
+
+`apps/novel-os/` is kept separate from the adapter layer. It is a snapshot of the independent Python application at `mrigankad/Novel-OS`, including its runtime agents, orchestrator, API, web UI, templates, tests, and documentation. See `apps/novel-os/UPSTREAM.md` for provenance and excluded local data.
