@@ -8,6 +8,7 @@ The repository separates the writing system from its client integration:
 - `adapters/opencode/` contains OpenCode commands, agents, routing rules, and project configuration.
 - `apps/novel-os/` contains a sanitized source snapshot of the separate Novel OS application.
 - `adapters/` is reserved for future integrations with other writing tools.
+- `BACKUP.md` and `scripts/` provide a two-artifact backup and restore process for state that cannot go in Git.
 
 This repository is the port of the workflow/configuration project at
 `forsonny/book-os`. It is separate from the similarly named Python application

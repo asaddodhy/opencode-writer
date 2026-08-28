@@ -1,0 +1,2 @@
+# Add one absolute path per line for private state that should be archived.
+# Lines beginning with # are ignored. Missing paths are skipped.
