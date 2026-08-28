@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "novelist": {
+      "description": "Creative writing specialist using the Novel-OS workflow system",
+      "mode": "primary",
+      "prompt": "{file:./.opencode/prompts/novel-os-assistant.txt}"
+    }
+  }
+}
