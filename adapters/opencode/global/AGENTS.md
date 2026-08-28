@@ -58,6 +58,7 @@ Novel-OS provides specialized subagents that can be invoked via `@agent-name`:
 - **`@continuity-checker`** — Character consistency, plot coherence, story logic verification
 - **`@manuscript-creator`** — File creation, directory setup, template application
 - **`@context-researcher`** — Efficient on-demand context loading
+- **`@date-checker`** — Current date determination for manuscript folder naming
 
 ## Commands
 

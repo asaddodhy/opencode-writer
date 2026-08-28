@@ -16,6 +16,15 @@ cp "${repo_root}/core/novel-os/standards-writing-style.md" \
   "${novel_os_dir}/standards/writing-style.md"
 cp "${repo_root}/core/novel-os/standards-narrative-techniques.md" \
   "${novel_os_dir}/standards/narrative-techniques.md"
+mkdir -p "${novel_os_dir}/standards/writing-style"
+cp "${repo_root}/core/novel-os/standards-description-style.md" \
+  "${novel_os_dir}/standards/writing-style/description-style.md"
+cp "${repo_root}/core/novel-os/standards-genre-literary-fiction.md" \
+  "${novel_os_dir}/standards/genre-guides/literary-fiction.md"
+cp "${repo_root}/core/novel-os/standards-genre-mystery-thriller.md" \
+  "${novel_os_dir}/standards/genre-guides/mystery-thriller.md"
+cp "${repo_root}/core/novel-os/standards-genre-fantasy-sci-fi.md" \
+  "${novel_os_dir}/standards/genre-guides/fantasy-sci-fi.md"
 cp "${repo_root}/core/novel-os/instructions-plan-novel.md" \
   "${novel_os_dir}/instructions/core/plan-novel.md"
 cp "${repo_root}/core/novel-os/instructions-create-outline.md" \

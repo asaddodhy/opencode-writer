@@ -8,6 +8,10 @@ The repository separates the writing system from its client integration:
 - `adapters/opencode/` contains OpenCode commands, agents, routing rules, and project configuration.
 - `adapters/` is reserved for future integrations with other writing tools.
 
+This repository is the port of the workflow/configuration project at
+`forsonny/book-os`. It is separate from the similarly named Python application
+at `mrigankad/Novel-OS`; see `docs/MIGRATION-AUDIT.md` for the distinction.
+
 ## Capabilities
 
 - Plan a novel with `/plan-novel`.
