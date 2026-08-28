@@ -38,3 +38,7 @@ Those items are replaced by the OpenCode adapter and the provider configuration 
 ## Separate Application
 
 The local `Writing/novel-os` application should be backed up separately if desired. It should not be mixed into this adapter repository because it has a different architecture, runtime, data model, and upstream repository. Its `.env`, database, virtual environment, caches, and generated files must be reviewed before any separate backup.
+
+## Preserved Lockfile Change
+
+The application snapshot includes the pre-existing local modification to `apps/novel-os/web/package-lock.json`. The change removes 42 `libc` selector fields from optional Linux native binding records, including `glibc` and `musl` values. It does not change dependency versions, resolved package URLs, integrity hashes, or application code. Because the source project does not document the motivation, this repository records it as a lockfile normalization/compatibility adjustment rather than attributing it to a confirmed bug fix.
