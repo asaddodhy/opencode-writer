@@ -19,7 +19,7 @@ Secrets never enter the main tarball.
 The default main-tarball destination is:
 
 ```text
-/Volumes/Seagate_Backup_Plus_Drive/NAS/Local Repo Backup/
+/Volumes/Seagate_Backup_Plus_Drive/NAS/Local Repo Backup/The Writer/
 ```
 
 The default secrets-container destination is the same directory. The drive is an SMB guest share, so the main tarball must be treated as readable by other devices on the LAN. The secrets container is encrypted before it is written to that destination.
