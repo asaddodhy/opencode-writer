@@ -8,7 +8,7 @@ emit_config_entries() {
   for path in "${directory}"/* "${directory}"/.[!.]*; do
     [[ -e "${path}" ]] || continue
     case "$(basename -- "${path}")" in
-      node_modules|antigravity-logs|logs|cache|caches|.cache) continue ;;
+      node_modules|antigravity-logs|antigravity-accounts.json|logs|cache|caches|.cache) continue ;;
     esac
     printf '%s\n' "${path}"
   done

@@ -7,6 +7,6 @@ emit() {
   fi
 }
 
-emit "${HOME}/Documents/Writing/novel-os/.env"
 emit "${HOME}/Documents/Writing/novel-os/novel_os.db"
 emit "${HOME}/Documents/Writing/novel-os/projects"
+emit "${HOME}/Documents/Writing/novel-os/outputs"

@@ -5,7 +5,7 @@ SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
 
 for scanner in "${SCRIPT_DIR}"/scanners/*.sh; do
   [[ -f "${scanner}" ]] || continue
-  [[ "$(basename -- "${scanner}")" == "discover-paths.sh" ]] && continue
+  [[ "$(basename -- "${scanner}")" == "04-secrets.sh" ]] && continue
   bash "${scanner}"
 done
 
